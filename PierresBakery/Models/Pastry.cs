@@ -13,5 +13,10 @@ namespace Bakery.Models
       _bearclaw = bearclaw;
       _croissant = croissant;
     }
+
+    public int GetPastryQuantity()
+    {
+      return 0;
+    }
   }
 }
