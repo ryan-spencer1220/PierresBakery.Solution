@@ -18,7 +18,7 @@ namespace Bakery
       Console.WriteLine("╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃");
       Console.WriteLine("╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯");
       Console.WriteLine("-----------------------------------------");
-
+      
       Console.WriteLine("Hello! Welcome to Pierre's Bakery!");
       Console.WriteLine("Can I interest you in some pastries? How many Danishes can I put you down for?");
       int danishQuantity = int.Parse(Console.ReadLine());

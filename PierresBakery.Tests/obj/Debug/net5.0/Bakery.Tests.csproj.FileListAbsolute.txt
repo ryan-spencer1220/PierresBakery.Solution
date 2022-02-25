@@ -94,3 +94,6 @@
 /Users/macbookpro/PierresBakery.Solution/PierresBakery.Tests/obj/Debug/net5.0/ref/Bakery.Tests.dll
 /Users/macbookpro/PierresBakery.Solution/PierresBakery.Tests/obj/Debug/net5.0/Bakery.Tests.pdb
 /Users/macbookpro/PierresBakery.Solution/PierresBakery.Tests/obj/Debug/net5.0/Bakery.Tests.genruntimeconfig.cache
+/Users/macbookpro/PierresBakery.Solution/PierresBakery.Tests/bin/Debug/net5.0/Bakery.deps.json
+/Users/macbookpro/PierresBakery.Solution/PierresBakery.Tests/bin/Debug/net5.0/Bakery.runtimeconfig.json
+/Users/macbookpro/PierresBakery.Solution/PierresBakery.Tests/bin/Debug/net5.0/Bakery.runtimeconfig.dev.json
