@@ -17,8 +17,7 @@ namespace Bakery.Models
 
     public int GetBreadQuantity()
     {
-      // return _sourdough + _baguette + _pumpernickle;
-      return 0;
+      return _sourdough + _baguette + _pumpernickle;
     }
 
     public int GetBreadTotal()
