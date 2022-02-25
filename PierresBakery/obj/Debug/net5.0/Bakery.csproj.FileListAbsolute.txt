@@ -10,3 +10,6 @@
 /Users/macbookpro/PierresBakery.Solution/PierresBakery/obj/Debug/net5.0/Bakery.dll
 /Users/macbookpro/PierresBakery.Solution/PierresBakery/obj/Debug/net5.0/ref/Bakery.dll
 /Users/macbookpro/PierresBakery.Solution/PierresBakery/obj/Debug/net5.0/Bakery.pdb
+/Users/macbookpro/PierresBakery.Solution/PierresBakery/bin/Debug/net5.0/Bakery.runtimeconfig.json
+/Users/macbookpro/PierresBakery.Solution/PierresBakery/bin/Debug/net5.0/Bakery.runtimeconfig.dev.json
+/Users/macbookpro/PierresBakery.Solution/PierresBakery/obj/Debug/net5.0/Bakery.genruntimeconfig.cache
