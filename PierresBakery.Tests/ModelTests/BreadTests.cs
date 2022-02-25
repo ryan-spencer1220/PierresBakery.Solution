@@ -26,11 +26,11 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetBreadTotal_ReturnTotalPriceOfBreads_Int()
     {
-      int sourdough = 6;
-      int baguette = 0;
-      int pumpernickle = 0;
+      int sourdough = 1;
+      int baguette = 1;
+      int pumpernickle = 1;
       Bread newOrder = new Bread(sourdough, baguette, pumpernickle);
-      Assert.AreEqual(20, newOrder.GetBreadTotal());
+      Assert.AreEqual(10, newOrder.GetBreadTotal());
     }
   }
 }
