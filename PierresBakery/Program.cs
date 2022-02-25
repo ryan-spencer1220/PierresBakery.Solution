@@ -23,7 +23,7 @@ namespace Bakery
       Console.WriteLine("-----------------------------------------");
       Console.WriteLine("We offer several types of bread and pastries! Please review our menu below.");
       Console.WriteLine("-----------------------------------------");
-      Console.WriteLine("We have three types of pastries, they're $2.00/each and we have a 3 pastries/$5 special today!");
+      Console.WriteLine("We have three types of pastries, they're $2.00/each and we have a 3 pastries/$5.00 special today!");
       Console.WriteLine("-----------------------------------------");
       Console.WriteLine("Danish ($2.00)");
       Console.WriteLine("Bearclaw ($2.00)");
