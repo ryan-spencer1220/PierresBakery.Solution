@@ -16,6 +16,8 @@
 
 Pierre's Bakery is a basic terminal application built in C#. This application was designed to showcase basic C# concepts including namespaces, classes, public/private variables, and test driven development. Users are greeted with a welcome message and then asked a series of questions based on what pastries and types of bread they would like. The application returns a subtotal for pastries, a subtotal for bread, and a final total at the end of the program.
 
+<img width="374" alt="Screen Shot 2022-02-25 at 1 44 57 PM" src="https://user-images.githubusercontent.com/86761275/155815637-fd3cf3a7-7d20-4ab9-9272-6650c6a501bb.png">
+
 ## Setup/Installation Requirements
 
 **Cloning**
