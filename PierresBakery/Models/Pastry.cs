@@ -16,7 +16,7 @@ namespace Bakery.Models
 
     public int GetPastryQuantity()
     {
-      return 0;
+      return _danish + _bearclaw + _croissant;
     }
   }
 }
