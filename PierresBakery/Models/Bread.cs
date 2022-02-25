@@ -5,19 +5,19 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    private int _sourdough;
-    private int _baguette;
-    private int _pumpernickle;
+    public int Sourdough { get; set; }
+    public int Baguette { get; set; }
+    public int Pumpernickle { get; set; }
     public Bread(int sourdough, int baguette, int pumpernickle)
     {
-      _sourdough = sourdough;
-      _baguette = baguette;
-      _pumpernickle = pumpernickle;
+      Sourdough = sourdough;
+      Baguette = baguette;
+      Pumpernickle = pumpernickle;
     }
 
     public int GetBreadQuantity()
     {
-      return _sourdough + _baguette + _pumpernickle;
+      return Sourdough + Baguette + Pumpernickle;
     }
 
     public int GetBreadTotal()

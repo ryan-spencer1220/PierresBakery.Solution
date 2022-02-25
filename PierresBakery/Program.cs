@@ -9,8 +9,8 @@ namespace Bakery
     public static void Main()
     {
       Console.WriteLine("-----------------------------------------");
-      Console.WriteLine("╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━╮╱╱╱╭╮");
-      Console.WriteLine("┃╭━╮┃╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱┃╭╮┃╱╱╱┃┃");
+      Console.WriteLine("╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━╮╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱");
+      Console.WriteLine("┃╭━╮┃╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱┃╭╮┃╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱");
       Console.WriteLine("┃╰━╯┣┳━━┳━━┳━━┳━━┫┣━━╮┃╰╯╰┳━━┫┃╭┳━━┳━┳╮╱╭╮");
       Console.WriteLine("┃╭━━╋┫┃━┫ ╭┫ ╭┫┃━╋┫━━┫┃╭━╮┃╭╮┃╰╯┫┃━┫╭┫┃╱┃┃");
       Console.WriteLine("┃┃╱╱┃┃┃━┫ ┃┃ ┃┃┃━┫┣━━┃┃╰━╯┃╭╮┃╭╮┫┃━┫┃┃╰━╯┃");
@@ -20,7 +20,22 @@ namespace Bakery
       Console.WriteLine("-----------------------------------------");
       
       Console.WriteLine("Hello! Welcome to Pierre's Bakery!");
-      Console.WriteLine("Can I interest you in some pastries? How many Danishes can I put you down for?");
+      Console.WriteLine("-----------------------------------------");
+      Console.WriteLine("We offer several types of bread and pastries! Please review our menu below.");
+      Console.WriteLine("-----------------------------------------");
+      Console.WriteLine("We have three types of pastries, they're $2.00/each and we have a 3 pastries/$5 special today!");
+      Console.WriteLine("-----------------------------------------");
+      Console.WriteLine("Danish ($2.00)");
+      Console.WriteLine("Bearclaw ($2.00)");
+      Console.WriteLine("Croissant ($2.00)");
+      Console.WriteLine("-----------------------------------------");
+      Console.WriteLine("We offer three varieties of bread, they're $5.00/each and we have a buy two get one free special today!");
+      Console.WriteLine("-----------------------------------------");
+      Console.WriteLine("Sourdough ($5.00)");
+      Console.WriteLine("Baguette ($5.00)");
+      Console.WriteLine("Pumpernickle ($5.00)");
+      Console.WriteLine("-----------------------------------------");
+      Console.WriteLine("Lets start with our freshly made Danishes. How many Danishes can I put you down for?");
       int danishQuantity = int.Parse(Console.ReadLine());
       Console.WriteLine("Would you like any bearclaws? Please enter a quantity!");
       int bearclawQuantity = int.Parse(Console.ReadLine());
@@ -41,7 +56,14 @@ namespace Bakery
       Console.WriteLine("Thank you so much! Your bread order total will be $" + breadOrder.GetBreadTotal() + ".00");
 
       int finalTotal = breadOrder.GetBreadTotal() + pastryOrder.GetPastryTotal();
-      Console.WriteLine("Your final total will be $" + finalTotal + ".00. Thank you! Have a great day!");
+      Console.WriteLine("Please review your order!");
+      Console.WriteLine("Danishes: " + danishQuantity + " || " + "Sourdough: " + sourdoughQuantity);
+      Console.WriteLine("Bearclaws: " + bearclawQuantity + " || " + "Baguettes: " + baguetteQuantity);
+      Console.WriteLine("Croissants: " + croissantQuantity + " || " + "Pumpernickle: " + pumpernickleQuantity);
+      Console.WriteLine("Your final total will be $" + finalTotal + ".00. Have a great day!");
+      Console.WriteLine("Thank you! Please press enter to submit your order!");
+      Console.ReadLine();
     }
   }
 }
+

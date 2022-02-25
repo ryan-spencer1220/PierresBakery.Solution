@@ -5,19 +5,19 @@ namespace Bakery.Models
 {
   public class Pastry
   {
-    private int _danish;
-    private int _bearclaw;
-    private int _croissant;
+    public int Danish { get; set; }
+    public int Bearclaw { get; set; }
+    public int Croissant { get; set; }
     public Pastry(int danish, int bearclaw, int croissant)
     {
-      _danish = danish;
-      _bearclaw = bearclaw;
-      _croissant = croissant;
+      Danish = danish;
+      Bearclaw = bearclaw;
+      Croissant = croissant;
     }
 
     public int GetPastryQuantity()
     {
-      return _danish + _bearclaw + _croissant;
+      return Danish + Bearclaw + Croissant;
     }
 
     public int GetPastryTotal()
