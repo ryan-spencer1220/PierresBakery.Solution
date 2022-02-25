@@ -21,7 +21,6 @@ namespace Bakery.Tests
       int bearclaw = 2;
       int croissant = 1;
       Pastry newOrder = new Pastry(danish, bearclaw, croissant);
-      int result = 4;
       Assert.AreEqual(4, newOrder.GetPastryQuantity());
     }
     [TestMethod]
@@ -31,7 +30,6 @@ namespace Bakery.Tests
       int bearclaw = 0;
       int croissant = 0;
       Pastry newOrder = new Pastry(danish, bearclaw, croissant);
-      int result = 4;
       Assert.AreEqual(10, newOrder.GetPastryTotal());
     }
   }
