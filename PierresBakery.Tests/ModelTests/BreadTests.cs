@@ -21,18 +21,16 @@ namespace Bakery.Tests
       int baguette = 5;
       int pumpernickle = 3;
       Bread newOrder = new Bread(sourdough, baguette, pumpernickle);
-      int result = 8;
-      Assert.AreEqual(result, newOrder.GetBreadQuantity());
+      Assert.AreEqual(8, newOrder.GetBreadQuantity());
     }
-    // [TestMethod]
-    // public void GetPastryTotal_ReturnTotalPriceOfPastries_Int()
-    // {
-    //   int danish = 6;
-    //   int bearclaw = 0;
-    //   int croissant = 0;
-    //   Pastry newOrder = new Pastry(danish, bearclaw, croissant);
-    //   int result = 4;
-    //   Assert.AreEqual(10, newOrder.GetPastryTotal());
-    // }
+    [TestMethod]
+    public void GetBreadTotal_ReturnTotalPriceOfBreads_Int()
+    {
+      int sourdough = 6;
+      int baguette = 0;
+      int pumpernickle = 0;
+      Bread newOrder = new Bread(sourdough, baguette, pumpernickle);
+      Assert.AreEqual(20, newOrder.GetBreadTotal());
+    }
   }
 }

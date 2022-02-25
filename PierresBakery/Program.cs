@@ -9,14 +9,14 @@ namespace Bakery
     public static void Main()
     {
       Console.WriteLine("-----------------------------------------");
-      Console.WriteLine("╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━╮╱╱╱╭╮");
-      Console.WriteLine("┃╭━╮┃╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱┃╭╮┃╱╱╱┃┃");
-      Console.WriteLine("┃╰━╯┣┳━━┳━┳━┳━━┫┣━━╮┃╰╯╰┳━━┫┃╭┳━━┳━┳╮╱╭╮");
-      Console.WriteLine("┃╭━━╋┫┃━┫╭┫╭┫┃━╋┫━━┫┃╭━╮┃╭╮┃╰╯┫┃━┫╭┫┃╱┃┃");
-      Console.WriteLine("┃┃╱╱┃┃┃━┫┃┃┃┃┃━┫┣━━┃┃╰━╯┃╭╮┃╭╮┫┃━┫┃┃╰━╯┃");
-      Console.WriteLine("╰╯╱╱╰┻━━┻╯╰╯╰━━╯╰━━╯╰━━━┻╯╰┻╯╰┻━━┻╯╰━╮╭╯");
-      Console.WriteLine("╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃");
-      Console.WriteLine("╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯");
+      Console.WriteLine("╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━╮╱╱╱╭╮");
+      Console.WriteLine("┃╭━╮┃╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱┃╭╮┃╱╱╱┃┃");
+      Console.WriteLine("┃╰━╯┣┳━━┳━━┳━━┳━━┫┣━━╮┃╰╯╰┳━━┫┃╭┳━━┳━┳╮╱╭╮");
+      Console.WriteLine("┃╭━━╋┫┃━┫ ╭┫ ╭┫┃━╋┫━━┫┃╭━╮┃╭╮┃╰╯┫┃━┫╭┫┃╱┃┃");
+      Console.WriteLine("┃┃╱╱┃┃┃━┫ ┃┃ ┃┃┃━┫┣━━┃┃╰━╯┃╭╮┃╭╮┫┃━┫┃┃╰━╯┃");
+      Console.WriteLine("╰╯╱╱╰┻━━┻━╯╰━╯╰━━╯╰━━╯╰━━━┻╯╰┻╯╰┻━━┻╯╰━╮╭╯");
+      Console.WriteLine("╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃");
+      Console.WriteLine("╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯");
       Console.WriteLine("-----------------------------------------");
       
       Console.WriteLine("Hello! Welcome to Pierre's Bakery!");
