@@ -18,5 +18,27 @@ namespace Bakery.Models
     {
       return _danish + _bearclaw + _croissant;
     }
+
+    public int GetPastryTotal()
+    {
+        return 0;
+      // int quantity = GetPastryQuantity();
+      // if (quantity == 1 || quantity == 2) 
+      // {
+      //   return quantity * 2;
+      // }
+      // else
+      // {
+      //   int deals = Math.Floor(quantity / 3);
+      //   if (quantity % 3 < 0.5)
+      //   {
+      //     return deals + 1;
+      //   }
+      //   else
+      //   {
+      //     return deals + 2;
+      //   }
+      // }
+    }
   }
 }
