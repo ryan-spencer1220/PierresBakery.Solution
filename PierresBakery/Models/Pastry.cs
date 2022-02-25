@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System;
 
 namespace Bakery.Models
 {
@@ -21,24 +22,27 @@ namespace Bakery.Models
 
     public int GetPastryTotal()
     {
-        return 0;
-      // int quantity = GetPastryQuantity();
-      // if (quantity == 1 || quantity == 2) 
-      // {
-      //   return quantity * 2;
-      // }
-      // else
-      // {
-      //   int deals = Math.Floor(quantity / 3);
-      //   if (quantity % 3 < 0.5)
-      //   {
-      //     return deals + 1;
-      //   }
-      //   else
-      //   {
-      //     return deals + 2;
-      //   }
-      // }
+      int quantity = GetPastryQuantity();
+      if (quantity == 1 || quantity == 2) 
+      {
+        return quantity * 2;
+      }
+      else
+      {
+        int total = (quantity / 3) * 5;
+        if (quantity % 3 < 5 && quantity % 3 > 0)
+        {
+          return total + 2;
+        }
+        else if (quantity % 3 > 5 && quantity % 3 < 1)
+        {
+          return total + 4;
+        }
+        else
+        {
+          return total;
+        }
+      }
     }
   }
 }

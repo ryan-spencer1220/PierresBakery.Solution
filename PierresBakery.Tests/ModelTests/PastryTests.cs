@@ -27,12 +27,12 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetPastryTotal_ReturnTotalPriceOfPastries_Int()
     {
-      int danish = 1;
-      int bearclaw = 2;
-      int croissant = 1;
+      int danish = 6;
+      int bearclaw = 0;
+      int croissant = 0;
       Pastry newOrder = new Pastry(danish, bearclaw, croissant);
       int result = 4;
-      Assert.AreEqual(7, newOrder.GetPastryQuantity());
+      Assert.AreEqual(10, newOrder.GetPastryTotal());
     }
   }
 }
