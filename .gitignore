@@ -1,4 +1,6 @@
-/obj
-/bin
+PierresBakery/obj
+PierresBakery/bin
+PierresBakery.Tests/obj
+PierresBakery.Tests/bin
 .vscode
 .DS_Store
