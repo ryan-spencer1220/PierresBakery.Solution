@@ -8,17 +8,15 @@ namespace Bakery
   {
     public static void Main()
     {
-      Console.WriteLine("-----------------------------------------");
-      Console.WriteLine("╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━╮╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱");
-      Console.WriteLine("┃╭━╮┃╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱┃╭╮┃╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱");
-      Console.WriteLine("┃╰━╯┣┳━━┳━━┳━━┳━━┫┣━━╮┃╰╯╰┳━━┫┃╭┳━━┳━┳╮╱╭╮");
-      Console.WriteLine("┃╭━━╋┫┃━┫ ╭┫ ╭┫┃━╋┫━━┫┃╭━╮┃╭╮┃╰╯┫┃━┫╭┫┃╱┃┃");
-      Console.WriteLine("┃┃╱╱┃┃┃━┫ ┃┃ ┃┃┃━┫┣━━┃┃╰━╯┃╭╮┃╭╮┫┃━┫┃┃╰━╯┃");
-      Console.WriteLine("╰╯╱╱╰┻━━┻━╯╰━╯╰━━╯╰━━╯╰━━━┻╯╰┻╯╰┻━━┻╯╰━╮╭╯");
-      Console.WriteLine("╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃");
-      Console.WriteLine("╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯");
-      Console.WriteLine("-----------------------------------------");
-      
+      Console.WriteLine("------------------------------------------------------------------------------------------------------------");
+      Console.WriteLine(" ██████╗ ██╗███████╗██████╗ ██████╗ ███████╗███████╗    ██████╗  █████╗ ██╗  ██╗███████╗██████╗ ██╗   ██╗██╗");
+      Console.WriteLine(" ██╔══██╗██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝    ██╔══██╗██╔══██╗██║ ██╔╝██╔════╝██╔══██╗╚██╗ ██╔╝██║");
+      Console.WriteLine(" ██████╔╝██║█████╗  ██████╔╝██████╔╝█████╗  ███████╗    ██████╔╝███████║█████╔╝ █████╗  ██████╔╝ ╚████╔╝ ██║");
+      Console.WriteLine(" ██╔═══╝ ██║██╔══╝  ██╔══██╗██╔══██╗██╔══╝  ╚════██║    ██╔══██╗██╔══██║██╔═██╗ ██╔══╝  ██╔══██╗  ╚██╔╝  ╚═╝");
+      Console.WriteLine(" ██║     ██║███████╗██║  ██║██║  ██║███████╗███████║    ██████╔╝██║  ██║██║  ██╗███████╗██║  ██║   ██║   ██╗");
+      Console.WriteLine(" ╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝");                                                                                                     
+      Console.WriteLine("------------------------------------------------------------------------------------------------------------");
+
       Console.WriteLine("Hello! Welcome to Pierre's Bakery!");
       Console.WriteLine("-----------------------------------------");
       Console.WriteLine("We offer several types of bread and pastries! Please review our menu below.");
@@ -61,7 +59,15 @@ namespace Bakery
       Console.WriteLine("Bearclaws: " + bearclawQuantity + " || " + "Baguettes: " + baguetteQuantity);
       Console.WriteLine("Croissants: " + croissantQuantity + " || " + "Pumpernickle: " + pumpernickleQuantity);
       Console.WriteLine("Your final total will be $" + finalTotal + ".00. Have a great day!");
-      Console.WriteLine("Thank you! Please press enter to submit your order!");
+      Console.WriteLine("-----------------------------------------------------------------------------");
+      Console.WriteLine("████████╗██╗  ██╗ █████╗ ███╗   ██╗██╗  ██╗    ██╗   ██╗ ██████╗ ██╗   ██╗██╗");
+      Console.WriteLine("╚══██╔══╝██║  ██║██╔══██╗████╗  ██║██║ ██╔╝    ╚██╗ ██╔╝██╔═══██╗██║   ██║██║");
+      Console.WriteLine("   ██║   ███████║███████║██╔██╗ ██║█████╔╝      ╚████╔╝ ██║   ██║██║   ██║██║");
+      Console.WriteLine("   ██║   ██╔══██║██╔══██║██║╚██╗██║██╔═██╗       ╚██╔╝  ██║   ██║██║   ██║╚═╝");
+      Console.WriteLine("   ██║   ██║  ██║██║  ██║██║ ╚████║██║  ██╗       ██║   ╚██████╔╝╚██████╔╝██╗");
+      Console.WriteLine("   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝       ╚═╝    ╚═════╝  ╚═════╝ ╚═╝");
+      Console.WriteLine("-----------------------------------------------------------------------------");
+      Console.WriteLine("Please press enter to submit your order!");
       Console.ReadLine();
     }
   }
