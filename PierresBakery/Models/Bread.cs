@@ -35,11 +35,11 @@ namespace Bakery.Models
         }
         else if (quantity % 3 < 5)
         {
-          return quantity * 5 - (quantity / 3 * 5) + 5;
+          return quantity * 5 - (quantity / 3 * 5);
         }
         else
         {
-          return quantity * 5 - (quantity / 3 * 5) + 10;
+          return quantity * 5 - (quantity / 3 * 10);
         }
       }
     }
