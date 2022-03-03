@@ -57,7 +57,7 @@ namespace Bakery.Tests
       int baguette = 1;
       int pumpernickle = 2;
       Bread newOrder = new Bread(sourdough, baguette, pumpernickle);
-      Assert.AreEqual(2, newOrder.GetBreadTotal());
+      Assert.AreEqual(20, newOrder.GetBreadTotal());
     }
   }
 }
