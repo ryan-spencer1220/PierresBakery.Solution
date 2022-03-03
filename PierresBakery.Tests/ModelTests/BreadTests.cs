@@ -50,5 +50,14 @@ namespace Bakery.Tests
       Bread newOrder = new Bread(sourdough, baguette, pumpernickle);
       Assert.AreEqual(20, newOrder.GetBreadTotal());
     }
+    [TestMethod]
+    public void GetBreadTotal4_ReturnTotalPriceOfBreads_Int()
+    {
+      int sourdough = 3;
+      int baguette = 1;
+      int pumpernickle = 2;
+      Bread newOrder = new Bread(sourdough, baguette, pumpernickle);
+      Assert.AreEqual(2, newOrder.GetBreadTotal());
+    }
   }
 }
