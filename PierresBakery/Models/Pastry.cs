@@ -29,18 +29,16 @@ namespace Bakery.Models
       }
       else
       {
-        int total = (quantity / 3) * 5;
-        if (quantity % 3 < 5 && quantity % 3 > 0)
+      int subTotal = quantity / 3;
+      int total = subTotal * 5;
+        if (quantity % 3 == 0)
         {
-          return total + 2;
-        }
-        else if (quantity % 3 > 5 && quantity % 3 < 1)
-        {
-          return total + 4;
+          return total;
         }
         else
         {
-          return total;
+          total = 5 * subTotal;
+          return total + (2 * (quantity % 3));
         }
       }
     }
