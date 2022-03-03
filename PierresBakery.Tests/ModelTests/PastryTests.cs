@@ -59,5 +59,14 @@ namespace Bakery.Tests
       Pastry newOrder = new Pastry(danish, bearclaw, croissant);
       Assert.AreEqual(15, newOrder.GetPastryTotal());
     }
+    [TestMethod]
+    public void GetPastryTotal5_ReturnTotalPriceOfPastries_Int()
+    {
+      int danish = 10;
+      int bearclaw = 0;
+      int croissant = 0;
+      Pastry newOrder = new Pastry(danish, bearclaw, croissant);
+      Assert.AreEqual(7, newOrder.GetPastryTotal());
+    }
   }
 }
